@@ -1,0 +1,48 @@
+# "org" ensures this Service is used with the correct Serverless Framework Access Key.
+org: surendra123
+# "app" enables Serverless Framework Dashboard features and sharing them with other Services.
+app: stacks
+# "service" is the name of this project. This will also be added to your AWS resource names.
+service: stackimplemtation
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+
+functions:
+  function1:
+    handler: handler.function1
+
+  function2:
+    handler: handler.function2
+
+  function3:
+    handler: handler.function3
+
+  function4:
+    handler: handler.function4
+
+  function5:
+    handler: handler.function5
+
+  function6:
+    handler: handler.function6
+
+  function7:
+    handler: handler.function7
+
+  function8:
+    handler: handler.function8
+
+  function9:
+    handler: handler.function9
+
+  function10:
+    handler: handler.function10
+
+  function11:
+    handler: handler.function11
+
+  function12:
+    handler: handler.function12
